@@ -59,12 +59,9 @@ class ChartingState extends MusicBeatState
 		'Hurt Note',
 		'GF Sing',
 		'No Animation',
-        'EXE Note',
-        'Ringbox Note',
-        'Spike Note',
-        'Static Note',
-        'Static P1 Note',
-        'Missle'
+		'PhantomNote',
+		'Markov',
+		'Cupcake'		
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -84,14 +81,11 @@ class ChartingState extends MusicBeatState
 		['Alt Idle Animation', "Sets a speciied suffix after the idle animation name.\nYou can use this to trigger 'idle-alt' if you set\nValue 2 to -alt\n\nValue 1: Character to set (Dad, BF or GF)\nValue 2: New suffix (Leave it blank to disable)"],
 		['Screen Shake', "Value 1: Camera shake\nValue 2: HUD shake\n\nEvery value works as the following example: \"1, 0.05\".\nThe first number (1) is the duration.\nThe second number (0.05) is the intensity."],
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
-		['MoveArrow', "Value 1: Note (0-7)Value 2: x value, y value, rotation, opacity (0-1), duration"],
-		['TweenSpin', "BOTH VALUES ARE REQUIRED FOR THE EFFECTValue 1: How long to tween for (in seconds)Value 2: How big of a tween (in degrees) (360 for one spin, 720 for 2 spins)"],
-		['Drain', "Steals health everytime its  called, useful for Illusion, Hallucination, Crusify, etc.THE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHINGValue 1 : How much health, half health is 1."],
-		[Cam Boom Speed', "Value 1: Speed\nValue 2: Intensity"],
-		[Flashes Camera', "Value 1: speed"],
-		[Object Play Animation', "Plays object animation Value 1: Object variable name/lua tag\nValue 2: animation name"],
-		[Play Sound', "Vlaue 1: Sound File Name (in the sounds/ folder)\nValue 2: Volume (0 - 1)"],
-		[Set Cam Zoom', "Sets Camera Zoom Value 1: Cam zoom\nValue 2: if blank, it will smoothly zoom regularly, otherwise it will do an instant zoom"],
+		['Drain', "Steals health everytime its  called, useful for Illusion, Hallucination, Crusify, etc. THE VALUE IS REQUIRED FOR THE EFFECT TO DO SOMETHING Value 1 : How much health, half health is 1."],
+		[Image Flash', "Value 1 is the name of the image/nValue 2 is how long it's there for."],
+		[Flash', "Smoothly sets the Opponent's transparency value. Value 1: Duration/nValue 2: 0 is Black, 1 is White, 2 is Red, 3 is Green,  4 is Blue and 5 is Yellow"],
+		[TweenSpin', "majin sonic spin lol but ported to lua :troll:"],
+		[Zoom', "Zooms the camera in. Value 1: Zoom amount"]
 	];
 
 	var _file:FileReference;
