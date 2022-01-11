@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				-280
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "bobEX_down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-280
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "bobEX_idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-71,
+				-281
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "bobEX_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-67,
+				-281
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "bobEX_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				-281
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "bobEX_right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dreamlol_derp",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mcbo",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		215,
+		226
+	],
+	"camera_position": [
+		80,
+		250
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

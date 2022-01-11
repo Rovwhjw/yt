@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Bluskys idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				84,
+				-9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Bluskys Sing Note LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				-33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Bluskys Sing Note RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-18
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Bluskys Sing Note DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				25
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Bluskys Sing Note UP",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/BluskysEX",
+	"position": [
+		70,
+		80
+	],
+	"healthicon": "bluskys-ex",
+	"flip_x": false,
+	"healthbar_colors": [
+		25,
+		85,
+		197
+	],
+	"camera_position": [
+		70,
+		40
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
